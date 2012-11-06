@@ -3,7 +3,7 @@
 
 echo "Installing IntelliJ configs..."
 
-for i in $HOME/Library/Preferences/IntelliJIdea* $HOME/Library/Preferences/IdeaIC*
+for i in $HOME/Library/Preferences/IntelliJIdea* $HOME/Library/Preferences/IdeaIC*/codestyles
 do
 	cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs/* $i
 done
