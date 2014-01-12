@@ -1,13 +1,13 @@
-Java Code Styles
+Android Code Styles
 ================
 
-IntelliJ IDEA code style settings for Square's Java and Android projects.
+Android Studio code style settings for Prolific's Android projects.
 
 
 Installation
 ------------
 
  * Run the `install.sh` script.
- * Restart IntelliJ if it's running.
- * Open IntelliJ Project Settings -> Code Styles, change the code style for the
+ * Restart Android Studio if it's running.
+ * Open Android Studio Project Settings -> Code Styles, change the code style for the
    project to the one you want.
