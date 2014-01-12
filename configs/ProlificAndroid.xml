@@ -70,8 +70,29 @@
   <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
   <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
   <option name="ENUM_CONSTANTS_WRAP" value="1" />
+  <AndroidXmlCodeStyleSettings>
+    <option name="USE_CUSTOM_SETTINGS" value="true" />
+    <option name="LAYOUT_SETTINGS">
+      <value>
+        <option name="INSERT_BLANK_LINE_BEFORE_TAG" value="false" />
+        <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
+      </value>
+    </option>
+    <option name="VALUE_RESOURCE_FILE_SETTINGS">
+      <value>
+        <option name="WRAP_ATTRIBUTES" value="1" />
+      </value>
+    </option>
+    <option name="OTHER_SETTINGS">
+      <value>
+        <option name="WRAP_ATTRIBUTES" value="1" />
+      </value>
+    </option>
+  </AndroidXmlCodeStyleSettings>
   <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="2" />
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
+    <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <ADDITIONAL_INDENT_OPTIONS fileType="php">
@@ -183,6 +204,126 @@
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
+    <arrangement>
+      <rules>
+        <rule>
+          <match>
+            <AND>
+              <NAME>xmlns:android</NAME>
+              <XML_NAMESPACE />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <NAME>xmlns:.*</NAME>
+          </match>
+          <order>BY_NAME</order>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:id</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:name</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>name</NAME>
+              <XML_NAMESPACE>^$</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>style</NAME>
+              <XML_NAMESPACE>^$</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*</NAME>
+              <XML_NAMESPACE>^$</XML_NAMESPACE>
+            </AND>
+          </match>
+          <order>BY_NAME</order>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:layout_width</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:layout_height</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:layout_.*</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+          <order>BY_NAME</order>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:width</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+          <order>BY_NAME</order>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:height</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+          <order>BY_NAME</order>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+          <order>BY_NAME</order>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*</NAME>
+              <XML_NAMESPACE>.*</XML_NAMESPACE>
+            </AND>
+          </match>
+          <order>BY_NAME</order>
+        </rule>
+      </rules>
+    </arrangement>
   </codeStyleSettings>
 </code_scheme>
 
