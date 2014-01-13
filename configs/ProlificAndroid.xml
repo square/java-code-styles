@@ -152,11 +152,8 @@
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
-    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_FOR" value="false" />
-    <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
-    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
     <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="1" />
@@ -190,7 +187,7 @@
     <option name="FIELD_ANNOTATION_WRAP" value="1" />
     <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
-    <option name="ENUM_CONSTANTS_WRAP" value="5" />
+    <option name="ENUM_CONSTANTS_WRAP" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
