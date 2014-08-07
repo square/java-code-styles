@@ -5,7 +5,10 @@ echo "Installing Square code style configs..."
 
 for i in $HOME/Library/Preferences/IntelliJIdea*/codestyles \
          $HOME/Library/Preferences/IdeaIC*/codestyles \
-         $HOME/Library/Preferences/AndroidStudio*/codestyles
+         $HOME/Library/Preferences/AndroidStudio*/codestyles \
+         $HOME/.IntelliJIdea*/config/codestyles \
+         $HOME/.IdeaIC*/config/codestyles \
+         $HOME/.AndroidStudio*/config/codestyles
 do
   cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs/* $i 2> /dev/null
 done
