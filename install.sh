@@ -1,5 +1,5 @@
 #!/bin/bash
-# Installs Square's IntelliJ configs into your user configs.
+# Installs Prolific's IntelliJ configs into your user configs.
 
 echo "Installing Prolific code style configs..."
 
