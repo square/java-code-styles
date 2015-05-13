@@ -3,12 +3,17 @@
 
 echo "Installing Prolific code style configs..."
 
-for i in $HOME/Library/Preferences/IntelliJIdea*/codestyles \
-         $HOME/Library/Preferences/IdeaIC*/codestyles \
-         $HOME/Library/Preferences/AndroidStudio*/codestyles 
+for i in $HOME/Library/Preferences/IntelliJIdea* \
+         $HOME/Library/Preferences/IdeaIC* \
+         $HOME/Library/Preferences/AndroidStudio* 
 
 do
-  cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs/* $i 2> /dev/null
+  # Create codestyles directory if it does not exist (AndroidStudio1.2 for example)
+  if [ ! -d "$i/codestyles" ]; then
+    mkdir $i/codestyles
+  fi
+
+  cp -frv $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs/* $i/codestyles 2> /dev/null
 done
 
 echo "Done."
