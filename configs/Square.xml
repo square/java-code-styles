@@ -201,6 +201,13 @@
     <option name="LABEL_INDENT_ABSOLUTE" value="false" />
     <option name="USE_RELATIVE_INDENTS" value="false" />
   </ADDITIONAL_INDENT_OPTIONS>
+  <codeStyleSettings language="JAVA">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
