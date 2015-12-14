@@ -250,6 +250,20 @@
         <section>
           <rule>
             <match>
+              <NAME>class</NAME>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <NAME>layout</NAME>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
               <NAME>xmlns:android</NAME>
             </match>
           </rule>
