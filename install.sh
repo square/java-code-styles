@@ -12,7 +12,7 @@ for i in $HOME/Library/Preferences/IntelliJIdea*  \
          $HOME/.IdeaIC*/config                    \
          $HOME/.AndroidStudio*/config
 do
-  if [ -d $i ]; then
+  if [[ -d $i ]]; then
 
     # Install codestyles
     mkdir -p $i/codestyles
