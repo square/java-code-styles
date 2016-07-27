@@ -21,6 +21,10 @@ do
     # Install inspections
     mkdir -p $i/inspection
     cp -frv "$CONFIGS/inspection"/* $i/inspection
+
+    # Install options ("Exclude from Import and Completion")
+    mkdir -p $i/options
+    cp -frv "$CONFIGS/options"/* $i/options
   fi
 done
 
