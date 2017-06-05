@@ -3,9 +3,9 @@
   <option name="IGNORE_SAME_INDENTS_FOR_LANGUAGES" value="true" />
   <option name="OTHER_INDENT_OPTIONS">
     <value>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
       <option name="USE_TAB_CHARACTER" value="false" />
       <option name="SMART_TABS" value="false" />
       <option name="LABEL_INDENT_SIZE" value="0" />
@@ -79,30 +79,30 @@
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <ADDITIONAL_INDENT_OPTIONS fileType="feature">
-    <option name="INDENT_SIZE" value="2" />
+    <option name="INDENT_SIZE" value="4" />
   </ADDITIONAL_INDENT_OPTIONS>
   <ADDITIONAL_INDENT_OPTIONS fileType="haml">
-    <option name="INDENT_SIZE" value="2" />
+    <option name="INDENT_SIZE" value="4" />
   </ADDITIONAL_INDENT_OPTIONS>
   <ADDITIONAL_INDENT_OPTIONS fileType="php">
-    <option name="INDENT_SIZE" value="2" />
-    <option name="CONTINUATION_INDENT_SIZE" value="4" />
-    <option name="TAB_SIZE" value="2" />
+    <option name="INDENT_SIZE" value="4" />
+    <option name="CONTINUATION_INDENT_SIZE" value="8" />
+    <option name="TAB_SIZE" value="4" />
   </ADDITIONAL_INDENT_OPTIONS>
   <ADDITIONAL_INDENT_OPTIONS fileType="rb">
-    <option name="INDENT_SIZE" value="2" />
-    <option name="CONTINUATION_INDENT_SIZE" value="4" />
-    <option name="TAB_SIZE" value="2" />
+    <option name="INDENT_SIZE" value="4" />
+    <option name="CONTINUATION_INDENT_SIZE" value="8" />
+    <option name="TAB_SIZE" value="4" />
     <option name="USE_RELATIVE_INDENTS" value="true" />
   </ADDITIONAL_INDENT_OPTIONS>
   <ADDITIONAL_INDENT_OPTIONS fileType="sass">
-    <option name="INDENT_SIZE" value="2" />
+    <option name="INDENT_SIZE" value="4" />
   </ADDITIONAL_INDENT_OPTIONS>
   <codeStyleSettings language="CSS">
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="CoffeeScript">
@@ -141,14 +141,14 @@
     <option name="ENUM_CONSTANTS_WRAP" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
@@ -188,9 +188,9 @@
     <option name="ENUM_CONSTANTS_WRAP" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
@@ -199,9 +199,9 @@
   </codeStyleSettings>
   <codeStyleSettings language="JSPX">
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
@@ -220,8 +220,8 @@
     <option name="FOR_BRACE_FORCE" value="1" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
@@ -273,16 +273,16 @@
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="kotlin">
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="4" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
