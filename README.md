@@ -1,12 +1,17 @@
-Android Guidelines
-==================
+FuboTV Android Projects
+=======================
+- [Android App](https://github.com/fubotv/fubotv_android_v3)
+- [Player Library](https://github.com/fubotv/player_android)
+
+
+# Android Guidelines
 
 List of guidelines that we use at [fuboTV](https://www.fubo.tv/) when developing for the __Android__ platform. 
 
 * [Project and code style guidelines](project_and_code_guidelines.md)
 
-Java Code Styles
-================
+
+# Java Code Styles
 
 IntelliJ IDEA code style settings for FuboTV's Java and Android projects.
 
