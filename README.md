@@ -1,7 +1,14 @@
+Android Guidelines
+==================
+
+List of guidelines that we use at [fuboTV](https://www.fubo.tv/) when developing for the __Android__ platform. 
+
+* [Project and code style guidelines](project_and_code_guidelines.md)
+
 Java Code Styles
 ================
 
-IntelliJ IDEA code style settings for Square's Java and Android projects.
+IntelliJ IDEA code style settings for FuboTV's Java and Android projects.
 
 
 Installation
