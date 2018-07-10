@@ -3,5 +3,6 @@
   <option name="myName" value="Square" />
   <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnnecessarySemicolon" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="MoveLambdaOutsideParentheses" enabled="true" level="INFORMATION" enabled_by_default="true" />
 </inspections>
 
