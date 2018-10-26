@@ -6,7 +6,7 @@ FuboTV Android Projects
 
 # Android Guidelines
 
-List of guidelines that we use at [fuboTV](https://www.fubo.tv/) when developing for the __Android__ platform. 
+List of guidelines that we use at [fuboTV](https://www.fubo.tv/) when developing for the __Android__ platform.
 
 * [Project and code style guidelines](project_and_code_guidelines.md)
 
@@ -41,6 +41,14 @@ Installation
  * Restart IntelliJ/Android Studio if it's running.
  * Open IntelliJ Project Settings -> Code Styles, change the code style for the
    project to the one you want.
+
+Kotlin
+-------
+Use detekt plugin for linting/code quality for kotlin classes. To enable live results,
+install the detekt plugin `preferences -> plugins -> browse repositories -> detekt IntelliJ plugin`
+You may have to restart IntelliJ. Then, open the detekt menu in the preferences;
+enable the plugin and point the config to the detekt-config.yml file in the project root.
+
 
 Amendments/Additions to Code Style
 ------------------------
