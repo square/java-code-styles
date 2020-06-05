@@ -69,6 +69,7 @@
   <option name="ENUM_CONSTANTS_WRAP" value="1" />
   <JavaCodeStyleSettings>
     <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
+    <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
   </JavaCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
