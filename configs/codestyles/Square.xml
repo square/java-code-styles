@@ -303,7 +303,7 @@
     <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
     <option name="EXTENDS_LIST_WRAP" value="5" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
     <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="METHOD_ANNOTATION_WRAP" value="1" />
     <option name="FIELD_ANNOTATION_WRAP" value="1" />
