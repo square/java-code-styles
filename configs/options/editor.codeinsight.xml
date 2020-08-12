@@ -3,7 +3,9 @@
     <EXCLUDED_PACKAGE NAME="autovalue.shaded" />
     <EXCLUDED_PACKAGE NAME="avro.shaded" />
     <EXCLUDED_PACKAGE NAME="com.beust.jcommander.internal" />
+    <EXCLUDED_PACKAGE NAME="com.google.inject.Inject" />
     <EXCLUDED_PACKAGE NAME="com.sun.istack" />
+    <EXCLUDED_PACKAGE NAME="com.sun.jersey.spi.inject.Inject" />
     <EXCLUDED_PACKAGE NAME="jline.internal" />
     <EXCLUDED_PACKAGE NAME="joptsimple.internal" />
     <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
@@ -12,6 +14,5 @@
     <EXCLUDED_PACKAGE NAME="org.hibernate.validator.internal" />
     <EXCLUDED_PACKAGE NAME="org.mockito.internal.util.collections" />
     <EXCLUDED_PACKAGE NAME="org.mockito.internal.verification.VerificationModeFactory" />
-    <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
   </component>
 </application>
