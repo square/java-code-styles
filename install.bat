@@ -1,15 +1,13 @@
-REM Installs Square's IntelliJ configs into your user configs.
+REM Installs BBC News and Weather Android Studio configs into your user configs.
 @echo off
-echo Installing Square IntelliJ configs...
+echo Installing BBC News and Weather Android Studio configs...
 
 setlocal enableDelayedExpansion
 
 for /D %%i in ("%userprofile%"\.AndroidStudio*) do call :copy_config "%%i"
-for /D %%i in ("%userprofile%"\.IdeaIC*) do call :copy_config "%%i"
-for /D %%i in ("%userprofile%"\.IntelliJIdea*) do call :copy_config "%%i"
 
 echo.
-echo Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'.
+echo Restart AndroidStudio, go to preferences, and apply 'BBC News and Weather' code style.
 exit /b
 
 REM sub function for copy config files

@@ -1,7 +1,7 @@
 #!/bin/bash
-# Installs Square's IntelliJ configs into your user configs.
+# Installs BBC News and Weather Android Studio IntelliJ configs into your user configs.
 
-echo "Installing Square IntelliJ configs..."
+echo "Installing BBC News and Weather Android Studio IntelliJ configs..."
 
 CONFIGS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs"
 
@@ -32,4 +32,4 @@ done
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'."
+echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'BBC News and Weather'."
