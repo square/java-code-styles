@@ -7,6 +7,9 @@ setlocal enableDelayedExpansion
 for /D %%i in ("%userprofile%"\.AndroidStudio*) do call :copy_config "%%i"
 for /D %%i in ("%userprofile%"\.IdeaIC*) do call :copy_config "%%i"
 for /D %%i in ("%userprofile%"\.IntelliJIdea*) do call :copy_config "%%i"
+for /D %%i in ("%userprofile%"\.AndroidStudio*\settingsRepository\repository) do call :copy_config "%%i"
+for /D %%i in ("%userprofile%"\.IdeaIC*\settingsRepository\repository) do call :copy_config "%%i"
+for /D %%i in ("%userprofile%"\.IntelliJIdea*\settingsRepository\repository) do call :copy_config "%%i"
 
 echo.
 echo Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'.
