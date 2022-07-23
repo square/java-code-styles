@@ -1,10 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<inspections version="1.0" is_locked="false">
+<profile version="1.0" is_locked="false">
   <option name="myName" value="Square" />
   <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="true" />
+    <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
   </inspection_tool>
   <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnnecessarySemicolon" enabled="true" level="ERROR" enabled_by_default="true" />
-</inspections>
-
+  <inspection_tool class="UsePropertyAccessSyntax" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="fqNameStrings">
+      <list>
+        <option value="java.net.Socket.getInputStream" />
+        <option value="java.net.Socket.getOutputStream" />
+        <option value="java.net.URLConnection.getInputStream" />
+        <option value="java.net.URLConnection.getOutputStream" />
+        <option value="java.util.concurrent.atomic.AtomicInteger.getAndIncrement" />
+        <option value="java.util.concurrent.atomic.AtomicInteger.getAndDecrement" />
+        <option value="java.util.concurrent.atomic.AtomicInteger.getAcquire" />
+        <option value="java.util.concurrent.atomic.AtomicInteger.getOpaque" />
+        <option value="java.util.concurrent.atomic.AtomicInteger.getPlain" />
+        <option value="java.util.concurrent.atomic.AtomicLong.getAndIncrement" />
+        <option value="java.util.concurrent.atomic.AtomicLong.getAndDecrement" />
+        <option value="java.util.concurrent.atomic.AtomicLong.getAcquire" />
+        <option value="java.util.concurrent.atomic.AtomicLong.getOpaque" />
+        <option value="java.util.concurrent.atomic.AtomicLong.getPlain" />
+        <option value="org.assertj.core.api.AbstractBooleanAssert.isFalse" />
+        <option value="org.assertj.core.api.AbstractBooleanAssert.isNotNull" />
+        <option value="org.assertj.core.api.AbstractBooleanAssert.isTrue" />
+        <option value="org.assertj.core.api.AbstractByteArrayAssert.isNotNull" />
+        <option value="org.assertj.core.api.AbstractDoubleAssert.isNotZero" />
+        <option value="org.assertj.core.api.AbstractDoubleAssert.isZero" />
+        <option value="org.assertj.core.api.AbstractIntegerAssert.isNotZero" />
+        <option value="org.assertj.core.api.AbstractIntegerAssert.isZero" />
+        <option value="org.assertj.core.api.AbstractLongAssert.isNotNull" />
+        <option value="org.assertj.core.api.AbstractLongAssert.isNotZero" />
+        <option value="org.assertj.core.api.AbstractLongAssert.isZero" />
+        <option value="org.assertj.core.api.AbstractStringAssert.isNotNull" />
+        <option value="org.assertj.core.api.IterableAssert.isNotEmpty" />
+        <option value="org.assertj.core.api.ListAssert.isNotEmpty" />
+        <option value="org.assertj.core.api.ListAssert.isNotNull" />
+        <option value="org.assertj.core.api.MapAssert.isNotEmpty" />
+        <option value="org.assertj.core.api.ObjectAssert.isNotNull" />
+      </list>
+    </option>
+  </inspection_tool>
+</profile>
