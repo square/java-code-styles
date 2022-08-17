@@ -109,6 +109,8 @@
     <option name="CONTINUATION_INDENT_FOR_EXPRESSION_BODIES" value="false" />
     <option name="WRAP_EXPRESSION_BODY_FUNCTIONS" value="1" />
     <option name="IF_RPAREN_ON_NEW_LINE" value="true" />
+    <!-- TODO: remove in favor of `codeStyleSettings` once this is fixed: https://youtrack.jetbrains.com/issue/KTIJ-22516. -->
+    <option name="ALLOW_TRAILING_COMMA" value="true" />
   </JetCodeStyleSettings>
   <XML>
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
