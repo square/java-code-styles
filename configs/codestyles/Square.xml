@@ -77,6 +77,8 @@
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT" value="2147483647" />
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
     <option name="CONTINUATION_INDENT_IN_PARAMETER_LISTS" value="false" />
+    <!-- TODO: remove in favor of `codeStyleSettings` once this is fixed: https://youtrack.jetbrains.com/issue/KTIJ-22516. -->
+    <option name="ALLOW_TRAILING_COMMA" value="true" />
   </JetCodeStyleSettings>
   <SqlCodeStyleSettings>
     <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
