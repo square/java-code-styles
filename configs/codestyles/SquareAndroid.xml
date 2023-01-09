@@ -260,6 +260,7 @@
     <option name="FIELD_ANNOTATION_WRAP" value="1" />
     <option name="ENUM_CONSTANTS_WRAP" value="2" />
     <option name="ALLOW_TRAILING_COMMA" value="true" />
+    <option name="LINE_BREAK_AFTER_MULTILINE_WHEN_ENTRY" value="false" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
