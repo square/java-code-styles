@@ -14,6 +14,7 @@ for i in $HOME/Library/Preferences/IntelliJIdea*  \
          $HOME/Library/Application\ Support/JetBrains/IntelliJIdea* \
          $HOME/Library/Application\ Support/Google/AndroidStudio* \
          $HOME/Library/Application\ Support/JetBrains/IdeaIC* \
+         $HOME/Library/Application\ Support/JetBrains/IntelliJIdea*/settingsRepository/repository \
          $HOME/Library/Application\ Support/Google/AndroidStudio*/settingsRepository/repository \
          $HOME/Library/Application\ Support/JetBrains/IdeaIC*/settingsRepository/repository
 do
